@@ -1,0 +1,67 @@
+body {
+  background-image: url("/images/sea-edge-79ab30e2.png");
+  font-family: sans-serif;
+  /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+
+h1 {
+  font-size: xx-large;
+  color: rgb(168, 46, 168);
+  margin-left: 300px;
+}
+.search-products {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.product-style {
+  border-radius: 10px;
+  width: 200px;
+  height: 50px;
+  border-color: transparent;
+}
+/* #product-style2 {
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    border-color: transparent;
+  }
+  #product-style3 {
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    border-color: transparent;
+  } */
+
+#search-btn {
+  border-radius: 10px;
+  width: 200px;
+  height: 50px;
+  border-color: transparent;
+  font-size: 20px;
+  font-weight: 1000;
+  background-color: antiquewhite;
+  color: violet;
+  transition: 0.3s;
+}
+#search-btn:hover {
+  background-color: aliceblue;
+  color: aqua;
+}
+
+#products {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.post {
+  background-color: pink;
+  border-radius: 10px;
+  border-color: palevioletred;
+  border-width: 10px;
+}
