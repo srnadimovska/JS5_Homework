@@ -1,5 +1,5 @@
 body {
-  background-image: url("/images/sea-edge-79ab30e2.png");
+  background-image: linear-gradient(rgb(194, 187, 239) , rgb(93, 101, 167));
   font-family: sans-serif;
   /* display: flex;
     flex-direction: column;
@@ -8,7 +8,7 @@ body {
 
 h1 {
   font-size: xx-large;
-  color: rgb(168, 46, 168);
+  color: rgb(64, 32, 195);
   margin-left: 300px;
 }
 .search-products {
@@ -53,15 +53,20 @@ h1 {
   color: aqua;
 }
 
-#products {
+#product {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 10px;
+  
 }
 
 .post {
-  background-color: pink;
+  background-color: rgb(129, 146, 230);
   border-radius: 10px;
-  border-color: palevioletred;
+  border-color: rgb(46, 36, 162);
   border-width: 10px;
+  border-style: solid;
+  padding: 20px;
+  color:white;
+  font-weight:bold
 }
